@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "type" : "module" ,
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
@@ -18,13 +19,13 @@
   },
   "homepage": "https://github.com/Adel-elbamb/Text_to_Speech_website#readme",
   "dependencies": {
-    "nodemon": "^3.1.10",
     "axios": "^1.11.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10"
   },
-  "devDependencies": {},
   "description": ""
 }
